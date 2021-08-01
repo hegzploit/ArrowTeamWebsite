@@ -1,0 +1,46 @@
+title:
+  title: ART01
+  subTitle: Shell Eco-Marathon 2019
+  imageDesc: ART01 Car in red, yellow and black, with black background, rendered image of the car.
+
+whoAreWe: Arrow Team is a student community started in January 2018 to represent the Egyptian Academy for Engineering and Advanced Technology in the various local, regional and international engineering-oriented contests. Arrow's mission is to deliver technical skills as well as to transfer hands-on experience, through student-to-student sharing community, through tackling different technical challenges and developing innovative interdisciplinary solutions. Arrow offers students a great opportunity in increasing their communication and negotiation skills to make them ready for the labor market.
+
+whoAreWeEdit: We're a student community started in January 2018 to represent the Egyptian Academy for Engineering and Advanced Technology in the various local, regional and international engineering-oriented contests. Our mission is to deliver technical skills as well as to transfer hands-on experience, through student-to-student sharing community, through tackling different technical challenges and developing innovative interdisciplinary solutions. We offer students a great opportunity in increasing their communication and negotiation skills to make them ready for the labor market.
+
+teams:
+  - cssID: eco-team
+    title: Shell Eco-Marathon Team
+    subTitle: Established 2019.
+    teamURL: eco
+    imageDesc: Eco team members, in a lecture room, photograph.
+
+  - cssID: ever-team
+    title: EVER Team
+    subTitle: Established 2018.
+    teamURL: ever
+    imageDesc: Some of EVER team members, outside, after EVER shortlisting presentation, photograph.
+
+  - cssID: rov-team
+    title: MATE ROV Team
+    subTitle: Established 2019.
+    teamURL: rov
+    imageDesc: ROV Team members, inside a lecture room, photograph.
+
+  - cssID: itf-team
+    title: Shell Imagine the Future Team
+    subTitle: Established 2018.
+    teamURL: itf
+    imageDesc: The 5 team members in a selfie before doing the semi-final presentation, at Shell building in Cairo.
+
+# countdowns:
+#   - name: countdown1
+#     due: Sep 1, 2019
+#     img: /assets/images/everlogo.png
+#     alt: EVER Competition
+#     link: http://www.electricvehiclerally.org
+
+#   - name: countdown2
+#     due: Apr 28, 2019
+#     img: /assets/images/shellecomarathonasia.png
+#     alt: Shell Eco-Marathon Asia Competition
+#     link: https://www.shell.com/make-the-future/shell-ecomarathon/asia.html

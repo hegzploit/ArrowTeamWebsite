@@ -1,0 +1,60 @@
+---
+layout: default
+title: Arrow - News
+permalink: /news/
+description: See our latest news.
+pagination:
+  enabled: true
+---
+
+<link rel="stylesheet" href="/assets/css/news.css?{{
+  "now" | date: "%s"
+}}"/>
+
+<div role="main" aria-label="The main news" class="container">
+  <!-- Hero News -->
+  {% for post in site.posts %} {% if post.type == "hero" %}
+  <a href="{{ post.url }}">
+    <div id="hero-news" style="background-image: url({{ post.image }})">
+      <div id="hero-content">
+        <h1>{{ post.title }}</h1>
+        {{ post.excerpt }}
+      </div>
+    </div>
+  </a>
+  {% endif %} {% endfor %}
+
+  <div class="news-view" aria-label="News section" >
+    {% for post in paginator.posts %}
+    <a
+      class="news-card"
+      href="{{ post.url }}"
+      style="background-image: radial-gradient(#00000000, #00000083), url({{ post.image }})"
+    >
+      <div class="news-content">
+        <h1>{{ post.title }}</h1>
+        {{ post.excerpt }}
+        <p class="date">{{ post.date | date: "%a, %b %d, %Y" }}</p>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+
+  <div {% if paginator.total_pages <= 1 %} style="display: none" aria-hidden="true" {% endif %} id="page-nav">
+    {% if paginator.total_pages > 1 %} {% if paginator.previous_page %}
+    <a
+      style="float: right"
+      href="{{ paginator.previous_page_path | prepend: site.baseurl }}"
+      aria-label="See newer news"
+      >Newer &#8594;</a
+    >
+    {% endif %} {% if paginator.next_page %}
+    <a
+      style="float: left"
+      href="{{ paginator.next_page_path | prepend: site.baseurl }}"
+      aria-label="See older news"
+      >&#8592; Older</a
+    >
+    {% endif %} {% endif %}
+  </div>
+</div>

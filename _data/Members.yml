@@ -1,0 +1,108 @@
+folder: /assets/images/team/
+defaultImage: default.jpg
+
+data:
+  - name: Ahmed Khaled
+    img: ahmed-khaled.jpg
+
+  - name: Maged El-Naggar
+    img: maged-elnaggar.jpg
+
+  - name: Fouad Sayed
+    img: fouad-sayed.jpg
+
+  - name: Amr Essam
+    img: amr-essam.jpg
+
+  - name: Osama Ghazawy
+    img: osama-ghazawy.jpg
+
+  - name: Esmail Amr
+    img: esmail-amr.jpg
+
+  - name: Omar Tarek
+    img: omar-tarek.jpg
+
+  - name: Zeyad Emam
+    img: zeyad-emam.jpg
+
+  - name: Ahmed Tarek
+    img: ahmed-tarek.png
+
+  - name: Mohamed Mosbah
+    img: mohamed-mosbah.jpg
+
+  - name: Hosam Fawky
+    img: hosam-fawky.jpg
+
+  - name: Eslam Faheem
+    img: eslam-faheem.jpg
+
+  - name: Esraa Hawary
+    img: esraa-hawary.jpg
+
+  - name: Tayseer El-Haytham
+    img: tayseer-haytham.jpg
+
+  - name: Basem Said
+    img: basem-said.jpg
+
+  - name: Michael Salah
+    img: michael-salah.jpg
+
+  - name: Rehab Mohamed
+    img: rehab-mohamed.jpg
+
+  - name: Ahmed Ibrahim
+    img: ahmed-ibrahim.jpeg
+
+  - name: Abdullah Salem
+    img: abdullah-salem.jpg
+
+  - name: Ahmed Abdelmoniem
+    img: ahmed-abdelmoniem.png
+
+  - name: Kareem Tarek
+    img: kareem-tarek.jpeg
+
+  - name: Eman Essam
+    img: eman-essam.jpg
+
+  - name: Nermeen Ahmed
+    img: nermeen-ahmed.jpg
+
+  - name: Mohamed Abdallah
+    img: mohamed-abdallah.jpg
+
+  - name: Kareem Bassem
+    img: kareem-bassem.jpg
+
+  - name: Rowaina Mohamed
+    img: rowaina-mohamed.jpg
+  
+  - name: Samer Khaled
+    img: samer-khaled.jpg
+  
+  - name: Yusuf Hegazy
+    img: yusuf-hegazy.jpg
+  
+  - name: Amin Danial
+    img: amin-danial.jpg
+  
+  - name: Mohamed Ali Tawfiq
+    img: mohamed-tawfiq.jpg
+  
+  - name: Hossam Khalil
+    img: hossam-khalil.jpg
+  
+  - name: Mahmoud Ibrahim
+    img: mahmoud-ibrahim.jpg
+  
+  - name: Ahmed Sayed
+    img: ahmed-sayed.jpg
+  
+  - name: Kerolos Tharwat
+    img: kerolos-tharwat.jpg
+  
+  - name: Ahmed Walid
+    img: ahmed-walid.jpg

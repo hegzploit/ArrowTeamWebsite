@@ -1,0 +1,42 @@
+everTeam2018:
+  text: Our start was in 2018 as the first team representing EAEAT in a local
+    competition called EVER Egypt. We started working on our first EV, ART00. This was our first experience with EVs. We later got
+    disqualified and ranked the 10th place.
+
+  image:
+    path: /assets/images/teams/ever18.jpeg
+    alt: EVER Team 2018 members, inside in a workshop room, photograph.
+
+sem2019:
+  text: Our 2nd try was in Shell Eco-Marathon 2019, ART01,
+    and started working on it since September 2018. The vehicle is finished and
+    ready, and shipped to Malaysia waiting for the competition to start.
+
+  image:
+    path: /assets/images/teams/eco.jpg
+    alt: Eco team members, in a lecture room, photograph.
+
+ever2019:
+  text: Now, we joined EVER Egypt 2019, aiming to achieve more than the past year with the experience and knowledge we gained from working on ART01.
+
+  image:
+    path: /assets/images/teams/ever.jpeg
+    alt: Some of EVER team members, outside, after EVER shortlisting presentation, photograph.
+
+itf2019:
+  text: Besides the technical competitions, we joined competitions that aim to improve the soft skills and the creativity of the students.
+
+  image:
+    path: /assets/images/teams/itf.jpeg
+    alt: The 5 team members in a selfie before doing the semi-final presentation, at Shell building in Cairo.
+
+rov2020:
+  text: We are also preparing a powerful team to compete in the next MATE ROV competition 2020.
+
+  image:
+    path: /assets/images/teams/rov.jpeg
+    alt: ROV Team members, inside a lecture room, photograph.
+
+lastWord:
+  The team is aiming at gaining more experience in the formula competitions
+  and making amazing formula teams.

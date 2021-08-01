@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<link rel="stylesheet" href="/assets/css/teamMembers.css?{{ "now" | date: "%s" }}">
+
+<div role="main" class="main-content">
+    <div role="navigation" class="tab-bar">
+        <h1>Get to know our teams 👋</h1>
+        <div class="nav-items">
+            <a class="tab-button" href="/team/eco">Eco</a>
+            <a class="tab-button" href="/team/ever">EVER</a>
+            <a class="tab-button" href="/team/rov">ROV</a>
+            <a class="tab-button" href="/team/itf">ITF</a>
+            <a class="tab-button" href="/team/media">Media</a>
+            <a class="tab-button" href="/team/fund-raising">Fund Raising</a>
+        </div>
+    </div>
+    <div>{{ content }}</div>
+</div>
+
+<script src="/assets/js/teams.js?{{ "now" | date: "%s" }}"></script>

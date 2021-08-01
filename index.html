@@ -1,0 +1,63 @@
+---
+layout: default
+title: Arrow Team
+---
+<link rel="stylesheet" href="/assets/css/main.css?{{ "now" | date: "%s" }}">
+<div id="main-container">
+  <div id="hero" class="noselect">
+    <div id="hero-image" aria-label="{{ site.data.Index.title.imageDesc }}"></div>
+    <div id="hero-sponsors">
+      <p>Sponsored by:</p>
+      <div>
+        {% for i in site.data.Global.art01-sponsors %}
+        <img class="noselect" src="{{ i.img }}" alt="{{ i.alt }}" />
+        {% endfor %}
+      </div>
+    </div>
+    <div id="title">
+      <h1>{{ site.data.Index.title.title }}</h1>
+      <h2>{{ site.data.Index.title.subTitle }}</h2>
+    </div>
+  </div>
+  <div id="who-are-we">
+    <h1>Who are we?</h1>
+    <p>
+      {{ site.data.Index.whoAreWeEdit }}
+    </p>
+
+    <a href="/about" target="_blank">Know more ></a>
+  </div>
+  <div id="Arrow-teams">
+    {% for i in site.data.Index.teams %}
+    <div id="{{ i.cssID }}">
+      <span aria-label="{{ i.imageDesc }}">
+        <a href="/team/{{i.teamURL}}"><h1>{{ i.title }}</h1></a>
+        <p>{{ i.subTitle }}</p>
+      </span>
+    </div>
+    {% endfor %}
+  </div>
+  <div id="countdown">
+    {% for i in site.data.countdowns %}
+    <div>
+      <a href="{{ i.link }}" target="_blank">
+        <img class="noselect" src="{{ i.img }}" alt="{{ i.alt }}" />
+      </a>
+      <span id="{{ i.name }}"></span>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+<script src="/assets/js/countdowns.js?{{ "now" | date: "%s" }}"></script>
+<script>
+const hero = document.getElementById("hero");
+
+window.onscroll = function (e) {
+    let viewportHeight = window.innerHeight - 100;
+    let windowScroll = window.scrollY;
+    
+    if (windowScroll <= viewportHeight) {
+        hero.style.opacity = 1 - Math.min(1, Math.max(windowScroll / viewportHeight, 0));
+    }
+}
+</script>

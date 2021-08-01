@@ -1,0 +1,14 @@
+<div class="card-view">
+    {% for i in include.subteam %}
+        {% assign img = include.images.folder | append: include.images.defaultImage %}
+        {% for image in include.images.data %}
+            {% if i.name == image.name %}
+                {% if include.images.data[forloop.index0].img %}
+                    {% assign img = include.images.folder | append: include.images.data[forloop.index0].img %}
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+
+        {% include teamcard.html src=img  name=i.name  role=i.role  %}
+    {% endfor %}
+</div>

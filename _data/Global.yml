@@ -1,0 +1,36 @@
+eaeatLogoSmall: /assets/images/eaelogo-small.png
+eaeatTitle: The Egyptian Academy for Engineering and Advanced Technology
+eaeat: EAEAT
+eaeatAlt: The Egyptian Academy for Engineering and Advanced Technology logo.
+
+sponsors:
+  - img: /assets/images/sponsors/shell.svg
+    alt: Shell company logo.
+
+  - img: /assets/images/sponsors/mp.png
+    alt: Ministry of Military Production logo.
+
+art00-sponsors:
+  - img: /assets/images/sponsors/mp.png
+    alt: Ministry of Military Production logo.
+
+art01-sponsors:
+  - img: /assets/images/sponsors/shell.svg
+    alt: Shell company logo.
+
+  - img: /assets/images/sponsors/mp.png
+    alt: Ministry of Military Production logo.
+
+art02-sponsors:
+  - img: /assets/images/sponsors/mp.png
+    alt: Ministry of Military Production logo.
+
+art03-sponsors:
+  - img: /assets/images/sponsors/brightskies.png
+    alt: Brightskies logo.
+
+  - img: /assets/images/sponsors/shell.svg
+    alt: Shell company logo.
+    
+  - img: /assets/images/sponsors/mp.png
+    alt: Ministry of Military Production logo.

@@ -1,0 +1,78 @@
+leaders:
+  - name: Omar Tarek
+    role: Administrator
+
+  - name: Osama Ghazawy
+    role: Software
+
+  - name: Ahmed Tarek
+    role: HR
+
+  - name: Lamiaa Abdelwahab
+    role: Electronic Enclosure
+
+  - name: Ahmed Ehab
+    role: Model Based Design
+
+  - name: Ahmed Yehia
+    role: Frame/Manipulation
+
+  - name: Ahmed Ammar
+    role: Image Processing
+
+  - name: Ahmed Hassan
+    role: Motor Control
+
+  - name: Ahmed Khaled Ismail
+    role: GUI and ROS
+
+  - name: Osama Ghazawy
+    role: Hardware and ROS
+
+  - name: Esraa Khaled
+    role: Embedded Systems
+
+mechanical:
+  - name: Mahmoud Emam
+    role: HR
+
+  - name: Eslam Faheem
+    role: Electronic Enclosure
+
+  - name: Abdullah Salem
+    role: Electronic Enclosure
+  
+  - name: Esmail Amr
+    role: Frame/Manipulation
+
+  - name: Ahmed Mohammed
+    role: Frame/Manipulation
+  
+  - name: Ahmed Hussien
+    role: Frame/Manipulation
+
+electrical:
+  - name: Mahmoud Emam
+    role: HR
+  
+  - name: Abdelrahman Hebashy
+    role: HR
+  
+  - name: Manar Mosaad
+    role: HR
+
+  - name: Hossam Fawky
+    role: Image Processing
+
+  - name: Tayseer El-Haytham
+    role: Motor Control
+
+  - name: Bassem Said
+    role: Hardware and ROS
+
+  - name: Omnia Awad
+    role: Embedded Systems
+  
+  - name: Esraa Hawary
+    role: Embedded Systems
+

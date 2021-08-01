@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>{{ page.title }}</title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/png" href="/assets/images/icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/default.css?{{ "now" | date: "%s" }}">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600,600i,700,900" rel="stylesheet">
+    <meta name="theme-color" content="black">
+    {% seo title=false %}
+</head>
+
+<body>
+    {% include nav.html %}
+    {{ content }}
+    {% include footer.html %}
+    <script src="/assets/js/main.js?{{ "now" | date: "%s" }}"></script>
+</body>
+
+</html>

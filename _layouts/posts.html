@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<article role="main" id="post-view">
+  <img
+    src="{{ page.image }}"
+    alt="{{ page.image_desc }}"
+    style="margin-bottom: 30px"
+  />
+  <h1>{{ page.title }}</h1>
+  <p id="date">{{ page.date | date: "%a, %b %d, %Y" }}</p>
+
+  <div>{{ content }}</div>
+
+  {% assign img = site.data.Members.folder | append: site.data.Members.defaultImage %}
+  {% for image in site.data.Members.data %}
+      {% if page.author == image.name %}
+          {% if site.data.Members.data[forloop.index0].img %}
+              {% assign img = site.data.Members.folder | append: site.data.Members.data[forloop.index0].img %}
+          {% endif %}
+      {% endif %}
+  {% endfor %}
+  <p>- {{ page.author }} <img id="author-img" src="{{ img }}" alt="Author photograph"></p> 
+  
+  
+</article>
+<link rel="stylesheet" href="/assets/css/news-view.css?{{
+  "now" | date: "%s"
+}}"/>

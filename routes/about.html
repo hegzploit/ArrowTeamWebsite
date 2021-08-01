@@ -1,0 +1,70 @@
+---
+layout: default
+title: Arrow - About us
+permalink: /about/
+description: Know more about us!
+---
+
+<link rel="stylesheet" href="/assets/css/about.css?{{ "now" | date: "%s" }}">
+<div class="container">
+  <article role="main">
+    <h1 id="2018">
+      <a href="#2018">#</a>
+      2018
+    </h1>
+    <h2 id="ever-2018">
+      <a href="#ever-2018">#</a>
+      EVER 2018</h2>
+    <img src="{{ site.data.About.everTeam2018.image.path }}" alt="{{ site.data.About.everTeam2018.image.alt }}" />
+    <p>
+      {{ site.data.About.everTeam2018.text }}
+    </p>
+
+    <h1 id="2019">
+      <a href="#2019">#</a>
+      2019</h1>
+    <h2 id="eco-marathon-2019" style="margin-top: 0">
+      <a href="#eco-marathon-2019">#</a>
+      Shell Eco-Marathon 2019</h2>
+    <img src="{{ site.data.About.sem2019.image.path }}" alt="{{ site.data.About.sem2019.image.alt }}" />
+    <p>
+      {{ site.data.About.sem2019.text }}
+    </p>
+
+    {% comment %}
+    <!-- <h2>EVER 2019</h2>
+    <img
+      src="{{ site.data.About.ever2019.image.path }}"
+      alt="{{ site.data.About.ever2019.image.alt }}"
+    
+    />
+    <p>
+      {{ site.data.About.ever2019.text }}
+    </p> -->
+    {% endcomment %}
+
+    <h2 id="itf-2019">
+      <a href="#itf-2019">#</a>
+      Shell Imagine the Future 2019</h2>
+    <img src="{{ site.data.About.itf2019.image.path }}" alt="{{ site.data.About.itf2019.image.alt }}" />
+    <p>
+      {{ site.data.About.itf2019.text }}
+    </p>
+
+    <h1 id="2020">
+      <a href="#2020">#</a>
+      2020</h1>
+    <h2 id="rov-2020" style="margin-top: 0">
+      <a href="#rov-2020">#</a>
+      MATE ROV 2020</h2>
+    <img src="{{ site.data.About.rov2020.image.path }}" alt="{{ site.data.About.rov2020.image.alt }}" />
+    <p>
+      {{ site.data.About.rov2020.text }}
+    </p>
+
+    <h3 id="aim">
+      <a href="#aim">#</a>
+      {{ site.data.About.lastWord }}
+    </h3>
+  </article>
+</div>

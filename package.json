@@ -1,0 +1,29 @@
+{
+  "name": "artwebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "bundle install --path vendor/bundle",
+    "build": "JEKYLL_ENV=production bundle exec jekyll build -d public --incremental",
+    "beta": "npm run optim && JEKYLL_ENV=development bundle exec jekyll build -d public_beta",
+    "optim": "imageoptim assets/images/team assets/images/teams assets/images/news assets/images/articles assets/images/stories",
+    "serve": "JEKYLL_ENV=development bundle exec jekyll serve",
+    "reload": "JEKYLL_ENV=development bundle exec jekyll serve --livereload",
+    "test": "npm run build && bundle exec rake",
+    "test_beta": "npm run beta && bundle exec rake beta_test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ribonsamr/artwebsite-ssg.git"
+  },
+  "author": "Amr Essam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ribonsamr/artwebsite-ssg/issues"
+  },
+  "homepage": "https://github.com/ribonsamr/artwebsite-ssg#readme",
+  "devDependencies": {
+    "eslint": "^5.15.3"
+  }
+}

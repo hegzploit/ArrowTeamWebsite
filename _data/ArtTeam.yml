@@ -1,0 +1,105 @@
+leaders:
+  - name: Ahmed Khaled
+    role: Arrow Leader
+
+  - name: Hossam Khalil
+    role: Powertrain
+
+  - name: Samer Khaled
+    role: Mechanical
+
+  - name: Kareem Tarek
+    role: Scrutineering
+
+  - name: Eman Essam
+    role: Embedded & Wiring
+
+  - name: Amin Danial
+    role: Faculty Advisor
+
+  - name: Ahmed Ibrahim
+    role: Deputy Project Advisor
+
+embedded:
+  - name: Eman Essam
+    role: Member
+
+  - name: Tayseer El-Haytham
+    role: Member
+
+  - name: Yusuf Hegazy
+    role: Member
+
+powertrain:
+  - name: Hossam Khalil
+    role: Hardware & Software
+
+  - name: Mohamed Ali Tawfiq
+    role: Model-Based Design & Software Control
+
+  - name: Mohamed Mosbah
+    role: Schematic PCB design & Monitoring systems
+
+driveline:
+  - name: Mahmoud Ibrahim
+    role: Mechanical Differential System
+
+  - name: Rehab Mohamed
+    role: Model Based Design
+
+body:
+  - name: Samer Khaled
+    role: 3D Design
+
+  - name: Rehab Mohamed
+    role: Sketches and 2D Drawings
+
+chassis:
+  - name: Kareem Tarek
+    role: Memeber
+
+  - name: Ahmed Walid
+    role: Member
+
+interiors:
+  - name: Ahmed Sayed
+    role: Memeber
+  
+  - name: Hamdy Mohamed
+    role: Memeber
+
+brakes:
+  - name: Kerolos Tharwat
+    role: Member
+
+  - name: Ahmed Sayed
+    role: Member
+
+  - name: Mohamed Abdallah
+    role: Member
+  
+  - name: Ahmed Saied
+    role: Member
+
+steering:
+  - name: Kareem Tarek
+    role: Member
+
+  - name: Mohamed Abdallah
+    role: Member
+
+  - name: Mahmoud Ibrahim
+    role: Member
+
+autonomous:
+  - name: Amr Essam
+    role: Member
+
+  - name: Samer Khaled
+    role: Member
+
+  - name: Ahmed Khaled
+    role: Member
+
+  - name: Ahmed Yamani
+    role: Member

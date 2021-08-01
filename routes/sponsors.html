@@ -1,0 +1,40 @@
+---
+layout: default
+title: Arrow - Sponsors
+permalink: /sponsors/
+description: Get to know our sponsors.
+---
+<link rel="stylesheet" href="/assets/css/sponsors.css?{{ "now" | date: "%s" }}"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
+<div role="main" id="sponsors-container">
+
+  <div>
+    <h1>ART00 Sponsors for EVER '18</h1>
+    {% for i in site.data.Global.art00-sponsors %}
+    <img class="noselect" src="{{ i.img }}" alt="{{ i.alt }}" />
+    {% endfor %}
+  </div>
+
+  <div>
+    <h1>ART01 Sponsors for SEM '19</h1>
+    {% for i in site.data.Global.art01-sponsors %}
+    <img class="noselect" src="{{ i.img }}" alt="{{ i.alt }}" />
+    {% endfor %}
+  </div>
+
+
+  <div>
+    <h1>ART02 Sponsors for EVER '19</h1>
+    {% for i in site.data.Global.art02-sponsors %}
+    <img class="noselect" src="{{ i.img }}" alt="{{ i.alt }}" />
+    {% endfor %}
+  </div>
+
+
+  <div>
+    <h1>ART03 Sponsors for SEM '20</h1>
+    {% for i in site.data.Global.art03-sponsors %}
+    <img class="noselect" src="{{ i.img }}" alt="{{ i.alt }}" />
+    {% endfor %}
+  </div>
+</div>

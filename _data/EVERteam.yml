@@ -1,0 +1,96 @@
+spocs:
+  - name: Ahmed Khaled
+    role: Leader & Communication
+
+  - name: Maged El-Naggar
+    role: Mechanical Project Manager
+
+  - name: Michael Salah
+    role: Administrator
+
+  - name: Ahmed Tohamy
+    role: Media
+
+  - name: Kareem Tarek
+    role: Scrutineering
+
+leaders:
+  - name: Osama Ghazawy
+    role: Circuits & Wiring
+
+  - name: Rehab Mohamed
+    role: Body
+
+  - name: Kareem Tarek
+    role: Chassis
+
+  - name: Esmail Amr
+    role: Ergonomics
+
+  - name: Ahmed Said
+    role: Brakes
+ 
+  - name: Kerolos Tharwat
+    role: Wheel Assembly
+
+  - name: Mahmoud Ibrahim
+    role: Steering
+
+  - name: Rowaina Mohamed
+    role: Powertrain
+
+  - name: Ahmed Tarek
+    role: HR
+
+  - name: Ahmed Ibrahim
+    role: Faculty Advisor
+
+HR:
+  - name: Manar Mosad
+    role: Member
+
+  - name: Ahmed Hassan
+    role: Member
+
+circuits:
+  - name: Mohamed Tawfiq
+    role: Member
+  
+  - name: Zeyad Zalat
+    role: Member
+  
+  - name: Yusuf Hegazy
+    role: Member
+
+body:
+  - name: Michael Atef
+    role: Member
+  
+  - name: Mohamed Abdullah
+    role: Member
+
+chassis:
+  - name: Mohamed Alaa
+    role: Member
+
+ergonomics:
+  - name: Ahmed Hamdy
+    role: Member
+
+assembly:
+  - name: Ahmed Abdelmoniem
+    role: Member
+
+steering:
+  - name: Mahmoud Gharib
+    role: Member
+
+suspension:
+  - name: Maged El-Naggar
+    role: Member
+
+powertrain:
+  - name: Omar Tarek
+    role: Member
+  - name: Abdullah Salem
+    role: Member

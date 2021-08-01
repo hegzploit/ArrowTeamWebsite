@@ -1,0 +1,116 @@
+.container {
+    width: 100%;
+    // Keep the margin because of the navbar
+    margin-top: 80px;
+
+    // Keep the color because of the black background
+    color: white;
+
+    article {
+        margin: auto;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    img {
+        width: 80%;
+        border-radius: 5px;
+        filter: saturate(80%);
+    }
+
+    p {
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        margin-top: 1em;
+    }
+
+    pre {
+        color: white;
+    }
+
+    h1,
+    h2,
+    h3 {
+        a {
+            position: absolute;
+            transform: translateX(-1em);
+            color: rgba(255, 255, 255, 0.384);
+
+            &:hover {
+                color: orange;
+            }
+        }
+    }
+
+    h1 {
+        margin-top: 5em;
+
+        &::after {
+            content: " ";
+            display: block;
+            margin: 0.5em auto;
+            height: 5px;
+            width: auto;
+            background: white;
+            border-radius: 3px;
+        }
+
+        &:first-of-type {
+            margin-top: 0;
+        }
+    }
+
+    h2 {
+        &::after {
+            content: " ";
+            display: block;
+            margin: 0.5em auto;
+            height: 2px;
+            width: auto;
+            background: white;
+            border-radius: 3px;
+        }
+
+        margin-top: 5em;
+        color: orange;
+
+        &:first-of-type {
+            margin-top: auto;
+        }
+    }
+
+    h3 {
+        text-align: center;
+        margin-top: 5em;
+
+        &::after {
+            content: " ";
+            display: block;
+            margin: 0.5em auto;
+            height: 2px;
+            width: 50px;
+            background: orange;
+            border-radius: 3px;
+        }
+    }
+
+    @media only screen and (max-width: 714px) {
+        article {
+            width: 90%;
+        }
+    }
+
+    @media only screen and (max-width: 375px) {
+        h2 {
+            font-size: 6vw;
+        }
+
+        h3 {
+            font-size: 4vw;
+        }
+    }
+}

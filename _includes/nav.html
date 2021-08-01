@@ -1,0 +1,33 @@
+{% capture news_page %}{% if page.url contains '/news/' %}Yes{% else %}No{% endif %}{% endcapture%}
+{% capture articles_page %}{% if page.url contains '/articles/' %}Yes{% else %}No{% endif %}{% endcapture%}
+{% capture stories_page %}{% if page.url contains '/stories/' %}Yes{% else %}No{% endif %}{% endcapture%}
+<aside role="navigation" id="sidebar">
+    <div class="aside-routes">
+        <a href="/" {% if page.url == "/" %} class="navbar-item-selected" {% endif %}>Home</a>
+        <a href="/team" {% if page.url == "/team/" %} class="navbar-item-selected" {% endif %}>Our Team</a>
+        <a href="/news" {% if news_page == "Yes" %} class="navbar-item-selected" {% endif %}>News</a>
+        <a href="/articles" {% if articles_page == "Yes" %} class="navbar-item-selected" {% endif %}>Articles</a>
+        <a href="/stories" {% if stories_page == "Yes" %} class="navbar-item-selected" {% endif %}>Stories</a>
+        <!-- <a href="/recruitment" {% if page.url == "/recruitment/" %} class="navbar-item-selected" {% endif %}>Recruitment</a> -->
+        <a href="/sponsors" {% if page.url == "/sponsors/" %} class="navbar-item-selected" {% endif %}>Sponsors</a>
+        <a href="/about" {% if page.url == "/about/" %} class="navbar-item-selected" {% endif %}>About</a>
+    </div>
+</aside>
+
+<nav role="navigation" {% if page.url == "/" %} id="main-nav" {% endif %} class="noselect">
+    <p aria-label="Sidebar button" id="sidebar-button" onclick="toggleSidebar()"></p>
+    <a aria-label="Arrow Team Logo" id="logo-wrapper" href="/">
+        <img id="logo" src="/assets/images/logo.svg" alt="{{ site.title }}">
+    </a>
+    <div class="nav-routes float-right">
+        <a href="/" {% if page.url == "/" %} class="navbar-item-selected" {% endif %}>Home</a>
+        <a href="/team" {% if page.url == "/team/" %} class="navbar-item-selected" {% endif %}>Our Team</a>
+        <a href="/news" {% if news_page == "Yes" %} class="navbar-item-selected" {% endif %}>News</a>
+        <a href="/articles" {% if articles_page == "Yes" %} class="navbar-item-selected" {% endif %}>Articles</a>
+        <a href="/stories" {% if stories_page == "Yes" %} class="navbar-item-selected" {% endif %}>Stories</a>
+        <!-- <a href="/events" {% if page.url == "/events" %} class="navbar-item-selected" {% endif %} data-proofer-ignore>Events</a> -->
+        <!-- <a href="/recruitment" {% if page.url == "/recruitment/" %} class="navbar-item-selected" {% endif %}>Recruitment</a> -->
+        <a href="/sponsors" {% if page.url == "/sponsors/" %} class="navbar-item-selected" {% endif %}>Sponsors</a>
+        <a href="/about" {% if page.url == "/about/" %} class="navbar-item-selected" {% endif %}>About</a>
+    </div>
+</nav>

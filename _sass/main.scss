@@ -1,0 +1,301 @@
+#main-container {
+    overflow: hidden;
+}
+
+#hero {
+    position: relative;
+    z-index: 0;
+
+    #hero-image {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        background: url("/assets/images/art101.jpeg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    min-height: 100vh;
+    overflow: hidden;
+
+    #title {
+        display: block;
+        cursor: default;
+        position: absolute;
+        bottom: 1%;
+        left: 5px;
+        margin: 0;
+
+        h1 {
+            font-size: 10em;
+            margin: 0;
+            line-height: 0.8;
+            text-align: left;
+            letter-spacing: -10px;
+            text-transform: uppercase;
+            background: linear-gradient(to right, rgb(255, 216, 145) 0%, orange 100%);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+        }
+
+        h2 {
+            display: block;
+            font-size: 2em;
+            margin: 0;
+            line-height: 0.8;
+            text-align: left;
+            text-transform: uppercase;
+            background: linear-gradient(to right, rgb(255, 216, 145) 0%, orange 100%);
+            color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+        }
+    }
+
+    @media only screen and (max-width: 550px) {
+        #title {
+            display: block;
+
+            h1 {
+                font-size: 5em;
+                letter-spacing: -4px;
+            }
+
+            h2 {
+                font-size: 1em;
+                margin-top: 2px;
+            }
+
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            width: 204px;
+            height: 320px;
+            margin: auto;
+        }
+    }
+}
+
+#who-are-we {
+    overflow: hidden;
+    min-height: 100vh;
+    color: white;
+    padding: 20px;
+    background: linear-gradient(to top left, black, rgb(25, 25, 25));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    * {
+        z-index: 1;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    a {
+        color: orange;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    p {
+        font-size: 1.2em;
+        width: 80%;
+
+        @media only screen and (max-width: 500px) {
+            font-size: 5vw;
+            width: 90%;
+        }
+    }
+}
+
+#hero-sponsors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    // background: white;
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+
+    // width: 150px;
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    p {
+        margin-bottom: 0;
+        color: orange;
+    }
+
+    img {
+        width: 70px;
+        margin: 10px;
+    }
+
+    @media screen and (min-width: 500px) and (max-width: 614px) {
+        img {
+            width: 9vw;
+        }
+    }
+}
+
+#countdown {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background: #000;
+
+    color: white;
+    text-align: center;
+
+    margin: auto;
+    width: 100%;
+    padding: 0;
+
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 100%;
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        span {
+            margin-left: auto;
+            line-height: 8em;
+        }
+
+        img {
+            float: left;
+        }
+    }
+
+    img {
+        max-height: 100px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        padding-left: 5%;
+        padding-right: 5%;
+
+        div {
+            span {
+                font-size: 0.8em;
+            }
+        }
+
+        img {
+            height: 15vw;
+        }
+    }
+
+    @media only screen and (min-width: 551px) {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    @media only screen and (min-width: 1000px) {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+
+#Arrow-teams {
+    div {
+        height: 100vh;
+
+        @media only screen and (max-width: 750px) {
+            height: 60vmax;
+            margin-top: 20px;
+
+            &:first-of-type {
+                margin-top: 0;
+            }
+        }
+    }
+
+    a {
+        cursor: pointer;
+    }
+
+    h1 {
+        &::after {
+            content: " >";
+            font-weight: lighter;
+        }
+
+        &:hover {
+            text-decoration: underline;
+        }
+
+        @media only screen and (max-width: 450px) {
+            font-size: 6vw;
+        }
+    }
+
+    span {
+        position: absolute;
+        bottom: 10%;
+        left: 3%;
+
+        a {
+            color: orange;
+        }
+
+        p {
+            color: white;
+        }
+    }
+
+    #eco-team {
+        position: relative;
+        background: linear-gradient(to top, black, rgba(0, 0, 0, 0)),
+            url("/assets/images/teams/eco.jpg") no-repeat center;
+        background-size: cover;
+    }
+
+    #rov-team {
+        position: relative;
+        background: linear-gradient(to top, black, rgba(0, 0, 0, 0)),
+            url("/assets/images/teams/rov.jpeg") no-repeat center;
+        background-size: cover;
+
+    }
+
+    #ever-team {
+        position: relative;
+        background: linear-gradient(to top, black, rgba(0, 0, 0, 0)),
+            url("/assets/images/teams/ever.jpeg") no-repeat center;
+        background-size: cover;
+
+    }
+
+    #itf-team {
+        position: relative;
+        background: linear-gradient(to top, black, rgba(0, 0, 0, 0)),
+            url("/assets/images/teams/itf.jpeg") no-repeat center;
+        background-size: cover;
+
+    }
+}

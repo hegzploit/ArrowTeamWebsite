@@ -1,0 +1,88 @@
+---
+layout: default
+title: Arrow - Recruitment
+permalink: /recruitment/
+description: Join our team!
+redirect_to: /
+---
+
+<body>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <div class="mt-24 ml-5 mr-5 mb-5">
+        <div class="container mx-auto bg-white rounded-lg p-6 max-w-2xl">
+            <h1 class="text-4xl text-gray-700">Join our team! 🙌</h1>
+            <p class="mb-2">Know more about the departments: <a style="color:rgb(0, 110, 255)" target="_blank"
+                    href="https://hackmd.io/s/SyzmHZDLv">here.</a></p>
+            <form action="success" name="registeration" method="POST" data-netlify="true" data-netlify-recaptcha="true"
+                class="text-gray-800">
+                <p class="mb-2">
+                    <label>Name: <input
+                            class="bg-white focus:bg-orange-100 border px-2 py-1 border-grey-200 rounded shadow-sm w-full"
+                            type="text" name="name" autofocus required /></label>
+                </p>
+                <p class="mb-2">
+                    <label>Email: <input
+                            class="bg-white focus:bg-orange-100 border px-2 py-1 border-grey-200 rounded shadow-sm w-full"
+                            type="email" name="email" required /></label>
+                </p>
+                <p class="mb-2">
+                    <label>Mobile: <input
+                            class="bg-white focus:bg-orange-100 border px-2 py-1 border-grey-200 rounded shadow-sm w-full"
+                            type="tel" name="mobile" required /></label>
+                </p>
+                <p class="mb-2">
+                    <label>Specialization: <select class="w-full" name="specialization[]" required>
+                            <option value="ec">Electronics and Communications</Leader< /option>
+                            <option value="mec">Mechatronics</option>
+                            <option value="chem">Chemical</option>
+                        </select></label>
+                </p>
+                <p class="mb-2">
+                    <label>Why do you want to join the team? (max 250 words) <textarea
+                            class="bg-white focus:bg-orange-100 border px-2 py-1 border-grey-200 rounded shadow-sm w-full"
+                            name="whyjoin" maxlength=250 required></textarea></label>
+                </p>
+                <p class="mb-2">
+                    <label>Facebook: <input
+                            class="bg-white focus:bg-orange-100 border px-2 py-1 border-grey-200 rounded shadow-sm w-full"
+                            type="url" name="facebook" required /></label>
+                </p>
+                <p class="mb-2">
+                    <label>LinkedIn (Optional): <input
+                            class="bg-white focus:bg-orange-100 border px-2 py-1 border-grey-200 rounded shadow-sm w-full"
+                            type="url" name="linkedin" /></label>
+                </p>
+                <p class="mb-2">
+                    <label>Skills: (max 250 words)<textarea
+                            class="bg-white focus:bg-orange-100 border px-2 py-1 border-grey-200 rounded shadow-sm w-full"
+                            name="skills" maxlength=250 placeholder="Ex: C++, Solidworks, Arduino, etc..."
+                            required></textarea></label>
+                </p>
+                <p class="mb-3">
+                    <label>Choose the department to join:
+                        <select class="w-full" name="departments[]" required>
+                            <option value="mec-assembly">Mechanical: Assembly and Brakes</option>
+                            <option value="mec-steering">Mechanical: Steering</option>
+                            <option value="mec-ergonomics">Mechanical: Ergonomics</option>
+                            <option value="mec-chassis">Mechanical: Chassis</option>
+                            <option value="mec-body">Mechanical: Body</option>
+                            <option value="mec-suspension">Mechanical: Suspension</option>
+                            <option value="elec-powertrain">Electrical: Powertrain</option>
+                            <option value="elec-embedded-and-wiring">Electrical: Embedded Systems and Wiring</option>
+                        </select></label>
+                </p>
+                <div data-netlify-recaptcha="true"></div>
+                <p class="mb-2">
+                    <button
+                        class="mt-5 shadow-outline bg-blue-500 w-full hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
+                        type="submit">Send</button>
+                </p>
+                <p>For any questions, please email our seniors:</p>
+                <p>Mechanical: <a style="color:rgb(0, 110, 255)" href="mailto:rehabm560@gmail.com" class="">rehabm560@gmail.com</a></p>
+                <p>Electrical: <a style="color:rgb(0, 110, 255)" href="mailto:rehabm560@gmail.com" class="">Eman.essam2009@hotmail.com</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
